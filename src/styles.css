@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card-f {
+  transition: transform 2s;
+}
+
+.card-f:active {
+  transform: scaleX(0);
+}
+
+.card-b {
+  transition-delay: display 2s;
+}
+
+body {
+  background: darkgreen;
+}
